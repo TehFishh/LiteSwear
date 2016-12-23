@@ -1,0 +1,11 @@
+# Liteswear Config
+# Version: 1.0 PRE-BETA
+# Colour codes are enabled for servername and blockedmessage
+# Add words to the Blocked Words list in order to block them
+
+Server Name: '&9&lAntiswear'
+
+Blocked Message: '&cThis message contains a blocked word!'
+
+Blocked Words:
+- blockedword

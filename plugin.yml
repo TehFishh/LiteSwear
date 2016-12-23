@@ -1,0 +1,14 @@
+main: me.tehfishh.liteswear.liteswear
+version: 1.0
+name: LiteSwear
+author: Fishh_
+
+commands:
+    liteswear:
+        description: Liteswear command
+
+permissions:
+    liteswear.check:
+        default: not op
+    liteswear.admin:
+        default: op

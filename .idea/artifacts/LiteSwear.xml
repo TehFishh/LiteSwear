@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="LiteSwear">
+    <output-path>T:/</output-path>
+    <root id="archive" name="LiteSwear.jar">
+      <element id="module-output" name="LiteSwear" />
+      <element id="file-copy" path="$PROJECT_DIR$/config.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/plugin.yml" />
+    </root>
+  </artifact>
+</component>
