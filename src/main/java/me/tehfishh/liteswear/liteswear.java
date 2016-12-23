@@ -17,7 +17,7 @@ public class liteswear extends JavaPlugin {
         getProcess();
         liteswear.plugin = this;
         getLogger().info("Liteswear has started successfully!");
-        getLogger().warning("Version 1.0 PRE-BETA // ~Fish");
+        getLogger().warning("Version 1.0 BETA // Report all bugs to GitHub // ~Fish");
     }
 
     @Override
@@ -25,7 +25,7 @@ public class liteswear extends JavaPlugin {
         getLogger().info("Liteswear is disabling.....");
         liteswear.plugin = null;
         getLogger().info("Liteswear has disabled successfully!");
-        getLogger().info("Version 1.0 PRE-BETA // ~Fish");
+        getLogger().info("Version 1.0 BETA // ~Fish");
     }
 
     public void getProcess() {
