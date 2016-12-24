@@ -22,8 +22,6 @@ public class liteswearcommand implements CommandExecutor {
             if (sender.hasPermission("liteswear.admin")) {
                 if (args.length == 0) {
                     sender.sendMessage(ChatColor.translateAlternateColorCodes('&', invalidarguement()));
-                } else if (args.length >= 2) {
-                    sender.sendMessage(ChatColor.translateAlternateColorCodes('&', invalidarguement()));
                 } else {
                     if (args[0].equalsIgnoreCase("reload")) {
                         plugin.reloadConfig();
@@ -43,6 +41,12 @@ public class liteswearcommand implements CommandExecutor {
                                 plugin.reloadConfig();
                                 sender.sendMessage(ChatColor.translateAlternateColorCodes('&', "&9&lLiteswear &8> &7Added &6" + arg2 + " &7blocked word list"));
                             }
+                        }
+                    } else {
+                        if (args.length >= 2) {
+                            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', invalidarguement()));
+                        } else {
+                            sender.sendMessage(ChatColor.translateAlternateColorCodes('&', invalidarguement()));
                         }
                     }
                 }
